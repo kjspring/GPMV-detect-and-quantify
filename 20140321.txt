@@ -1,0 +1,25 @@
+# Measuring Kp
+#
+# Author: Kevin Spring
+# Date: 18 March 2014
+#
+# I. Randomly makes segments through the detected object.
+#    1. Find the center of the object.
+#    2. Find the first pixel of the object.
+#    3. Find the
+
+
+
+
+
+
+Start from some edge point.
+#    2. Determine the angle
+#    2. Average over 5 pixels, save in data frame as first pixel to avg intensity.
+#    3. From that point move down 5 pixels and average the 5px^2 area and save as next point in the data frame.
+#    4. From that point move right 5 pixels and average the 5px^2 area and save as next point in the data frame.
+#    5. Repeat step 2.
+#    6. From that point move left 5 pixels and average the 5px^2 area and save as the next point in the data frame.
+#    7. Repeat steps 3-6 until the center of the object is reached.
+#    8. Randomly generate a number between 1-360 to determine the angle.
+#    9. From the angle value generated 
